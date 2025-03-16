@@ -53,14 +53,14 @@ To run Airflow locally, you need the **Astro CLI** from **astronomer.io**. Then 
   astro dev start
   ```
 
-2**Create a Python virtual environment:**
+2. **Create a Python virtual environment:**
 
   ```bash
     python -m venv venv
     source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
   ```
    
-3**Install required dependencies:**
+3. **Install required dependencies:**
 
   ```bash
     pip install -r requirements.txt

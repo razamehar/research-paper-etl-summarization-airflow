@@ -40,9 +40,7 @@ This pipeline helps automate the collection and summarization of academic resear
 
 ## Setup
 
-1. **Install Astro CLI:**
-
-To run Airflow locally, you need the **Astro CLI** from **astronomer.io**. Then you can run the following commands to 
+1. **Install Astro CLI:** To run Airflow locally, you need the **Astro CLI** from **astronomer.io**. Then you can run the following commands to 
 - Initiate Airflow:
   ```bash
   astro dev init
@@ -56,18 +54,17 @@ To run Airflow locally, you need the **Astro CLI** from **astronomer.io**. Then 
 2. **Create a Python virtual environment:**
 
   ```bash
-    python -m venv venv
-    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+  python -m venv venv
+  source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
   ```
    
 3. **Install required dependencies:**
 
   ```bash
-    pip install -r requirements.txt
+  pip install -r requirements.txt
   ```
 
-3. **Set up PostgreSQL:**
-Ensure that PostgreSQL is installed and running. The database must have a connection with the ID postgres_default, or you can modify the connection ID in the Airflow configurations.
+3. **Set up PostgreSQL:** Ensure that PostgreSQL is installed and running. The database must have a connection with the ID postgres_default, or you can modify the connection ID in the Airflow configurations.
 
 ## License
 This project is licensed under the Raza Mehar License. See the LICENSE.md file for details.
